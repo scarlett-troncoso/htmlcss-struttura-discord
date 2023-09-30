@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*debug*/
+
+.debug #menu_header {
+    background-color: rgb(245, 206, 212);
+}
+
+.debug .log_container {
+    height: 30px;
+    background-color: rgb(251, 139, 157);
+}
+
+.debug .logo, .debug .button_h {
+    width: 20%;
+}
+
+.debug .nav_h{
+    background-color: rgb(215, 85, 107);
+}
+
+/*body*/
+
+
+/*header*/
+
+#menu_header{
+    height: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0% 10%;
+    width: ;
+}
+
+.log_container {
+    display: flex;
+}
+
+.nav_h {
+    width: 70%;
+    justify-content: center;
+}
