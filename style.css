@@ -1,8 +1,14 @@
+/* #region common*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.intro, .log_container{  
+    min-width: 500px;
+}
+/* #endregion common*/
 
 /* #region debug*/
 
@@ -77,6 +83,3 @@ body{
 }
 /* #endregion Main*/
 
-.intro, .log_container{  
-    min-width: 500px;
-}
