@@ -4,43 +4,79 @@
     box-sizing: border-box;
 }
 
-/*debug*/
+/* #region debug*/
 
 .debug #menu_header {
     background-color: rgb(245, 206, 212);
 }
 
 .debug .log_container {
-    height: 30px;
+    height: 40px;
     background-color: rgb(251, 139, 157);
 }
 
 .debug .logo, .debug .button_h {
-    width: 20%;
+    width: 40%;
 }
 
-.debug .nav_h{
+.debug .row{
     background-color: rgb(215, 85, 107);
 }
 
-/*body*/
+.debug #main_header{
+    height: 400px;
+    background-color: aqua;
+}
+
+.debug .intro{
+    background-color: rgb(103, 103, 210);
+    height: 95%;
+}
+
+/* #endregion debug*/
 
 
-/*header*/
+/* #region body*/
+body{
+    min-width: 500px;
+}
+/* #endregion body*/
+
+
+/* #region header*/
 
 #menu_header{
     height: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0% 10%;
-    width: ;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .log_container {
     display: flex;
+    margin: auto 10%;
+    width: 80%;
 }
 
-.nav_h {
+.row {
     width: 70%;
     justify-content: center;
+}
+/* #endregion header*/
+
+
+/* #region Main*/
+
+#main_header{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro{
+    width: 55%;
+    margin: auto;
+}
+/* #endregion Main*/
+
+.intro, .log_container{  
+    min-width: 500px;
 }
