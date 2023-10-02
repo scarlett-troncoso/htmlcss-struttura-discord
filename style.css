@@ -5,10 +5,21 @@
     box-sizing: border-box;
 }
 
-.intro, .log_container{  
+body{  
     min-width: 500px;
 }
+
+.container, .intro {
+    display: flex;
+    min-width: 400px;
+}
+
+.container{
+    margin: auto 10%;
+    width: 80%;
+}
 /* #endregion common*/
+
 
 /* #region debug*/
 
@@ -16,7 +27,7 @@
     background-color: rgb(245, 206, 212);
 }
 
-.debug .log_container {
+.debug #menu_header>.container {
     height: 40px;
     background-color: rgb(251, 139, 157);
 }
@@ -31,12 +42,32 @@
 
 .debug #main_header{
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(227, 139, 153);
 }
 
 .debug .intro{
-    background-color: rgb(103, 103, 210);
+    background-color: rgb(182, 57, 90);
     height: 95%;
+}
+
+.debug main>.container{
+    height: 400px;
+}
+
+.debug .voice, .debug .tecnologia{
+    background-color: rgb(209, 171, 245);
+}
+
+.debug .can1{
+    width: 60%;
+    height: 350px;
+    background-color: aquamarine;
+}
+
+.debug .can2{
+    width: 40%;
+    height: 350px;
+    background-color: rgb(250, 137, 233);
 }
 
 /* #endregion debug*/
@@ -57,12 +88,6 @@ body{
     padding-bottom: 15px;
 }
 
-.log_container {
-    display: flex;
-    margin: auto 10%;
-    width: 80%;
-}
-
 .row {
     width: 70%;
     justify-content: center;
@@ -81,5 +106,11 @@ body{
     width: 55%;
     margin: auto;
 }
+
+main>section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 /* #endregion Main*/
 
