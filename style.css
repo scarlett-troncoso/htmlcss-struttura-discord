@@ -110,11 +110,11 @@ body{
     width: 60%;
 }
 
-/*
-.debug .color{
-    width: 15%;
-    background-color: blueviolet;
-} */
+.debug .col-4{
+    width: calc((100% / 12)*4);
+    border: 1px solid green;
+}
+    
 
 /* #endregion debug*/
 
