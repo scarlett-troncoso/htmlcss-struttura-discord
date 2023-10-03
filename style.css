@@ -14,17 +14,18 @@ body{
     min-width: 400px;
 }
 
-.container{
-    margin: auto 10%;
-    width: 80%;
+[class^="container"]{
+    margin: auto 15%;
+    width: 70%;
 }
 /* #endregion common*/
 
 
 /* #region debug*/
 
+/*header debug*/
 .debug #menu_header {
-    background-color: rgb(245, 206, 212);
+    background-color: rgb(162, 254, 129);
 }
 
 .debug #menu_header>.container {
@@ -32,30 +33,32 @@ body{
     background-color: rgb(251, 139, 157);
 }
 
+/*header main debug*/
 .debug .logo, .debug .button_h {
     width: 40%;
 }
 
 .debug .row{
-    background-color: rgb(215, 85, 107);
+    background-color: rgb(99, 105, 230);
 }
 
 .debug #main_header{
     height: 400px;
-    background-color: rgb(227, 139, 153);
+    background-color: rgb(161, 140, 236);
 }
 
 .debug .intro{
-    background-color: rgb(182, 57, 90);
+    background-color: rgb(249, 178, 206);
     height: 95%;
 }
 
-.debug main>.container{
+/*main debug*/
+.debug main>section {
     height: 400px;
 }
 
 .debug .voice, .debug .tecnologia{
-    background-color: rgb(209, 171, 245);
+    background-color: rgb(235, 250, 160);
 }
 
 .debug .can1{
@@ -69,6 +72,49 @@ body{
     height: 350px;
     background-color: rgb(250, 137, 233);
 }
+
+.debug .cont_tec{
+    width: 100%;
+    height: 350px;
+    background-color: aquamarine;
+}
+
+/*footer debug*/
+
+.debug .sec_footer, .debug .sec_footer2{
+    background-color: rgb(210, 186, 249);
+}
+
+.debug .sec_footer{
+    height: 400px;
+}
+
+.debug .sec_footer2{
+    height: 100px;
+}
+
+.debug .container.footer{
+    height: 350px;
+    width: 70%;
+}
+
+.debug .social{
+   background-color: rgb(250, 137, 233);
+   height: 70%;
+   width: 40%;
+}
+
+.debug .row.f{
+    background-color: rgb(176, 251, 226);
+    height: 70%;
+    width: 60%;
+}
+
+/*
+.debug .color{
+    width: 15%;
+    background-color: blueviolet;
+} */
 
 /* #endregion debug*/
 
@@ -88,7 +134,7 @@ body{
     padding-bottom: 15px;
 }
 
-.row {
+.row.h {
     width: 70%;
     justify-content: center;
 }
@@ -112,5 +158,13 @@ main>section{
     padding-bottom: 25px;
 }
 
+.cont1{
+    flex-direction: row-reverse;
+}
+
 /* #endregion Main*/
 
+footer>section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
