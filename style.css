@@ -34,11 +34,15 @@ body{
 }
 
 /*header main debug*/
-.debug .logo, .debug .button_h {
-    width: 40%;
+.debug .logo, .debug .button {     /* ripete anche nell footer*/
+    width: 20%;
+    height: 40px;
+    background-color: coral;
+    border: 1px solid black;
+    
 }
 
-.debug .row{
+.debug .row.h{
     background-color: rgb(99, 105, 230);
 }
 
@@ -100,19 +104,24 @@ body{
 
 .debug .social{
    background-color: rgb(250, 137, 233);
-   height: 70%;
+   height: 100%;
    width: 40%;
 }
 
 .debug .row.f{
     background-color: rgb(176, 251, 226);
-    height: 70%;
+    height: 100%;
     width: 60%;
 }
 
 .debug .col-4{
     width: calc((100% / 12)*4);
     border: 1px solid green;
+}
+
+.debug .sec_footer2>.container{
+    background-color: aqua;
+    justify-content: space-between;
 }
     
 
@@ -167,4 +176,15 @@ main>section{
 footer>section{
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+hr{
+    width: 70%;
+    margin-bottom: 30px;
+    border: 1px solid green;
+    margin-left: 15%;
 }
